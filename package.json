@@ -1,0 +1,31 @@
+{
+    "name": "mcp-sheets",
+    "version": "1.0.0",
+    "description": "Model Context Protocol for Google Sheets",
+    "main": "index.ts",
+    "repository": "git@github.com:Timothyvanderveen/mcp-sheets.git",
+    "author": "Timothy van der Veen <timothyvanderveen.dev@gmail.com>",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "build": "tsc && chmod 755 build/index.js"
+    },
+    "dependencies": {
+        "@anthropic-ai/sdk": "^0.39.0",
+        "@modelcontextprotocol/sdk": "^1.9.0",
+        "@types/node": "^22.14.1",
+        "dotenv": "^16.5.0"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.24.0",
+        "@stylistic/eslint-plugin": "^4.2.0",
+        "eslint": "^9.24.0",
+        "globals": "^16.0.0",
+        "typescript": "^5.8.3",
+        "typescript-eslint": "^8.29.1"
+    },
+    "engines": {
+        "yarn": ">= 1.*",
+        "node": ">= 18.*"
+    }
+}

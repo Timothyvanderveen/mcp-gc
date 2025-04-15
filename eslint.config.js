@@ -15,6 +15,15 @@ export default tseslint.config(
       '@stylistic/function-call-argument-newline': ['error', 'consistent'],
       '@stylistic/object-curly-newline': ['error', { consistent: true }],
       '@stylistic/semi': ['error', 'always'],
+      '@typescript-eslint/no-explicit-any': 'off',
+      '@typescript-eslint/no-unused-vars': [
+        'warn',
+        {
+          argsIgnorePattern: '^_',
+          varsIgnorePattern: '^_',
+          caughtErrorsIgnorePattern: '^_',
+        },
+      ],
     },
   },
 );

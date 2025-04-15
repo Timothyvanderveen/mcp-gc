@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "target": "ES2022",
+        "target": "ESNext",
         "module": "Node16",
         "moduleResolution": "node16",
         "resolveJsonModule": true,
@@ -9,11 +9,13 @@
         "strict": true,
         "skipLibCheck": true,
         "paths": {
-            "~/*": ["./src/*"]
+            "~/*": ["./src/*"],
+            "_/*": ["./*"]
         },
+        "baseUrl": ".",
         "outDir": "./build",
-        "rootDir": "./",
+        "rootDir": "./src"
     },
-    "include": ["index.ts"],
+    "include": ["src/index.ts"],
     "exclude": ["node_modules"]
 }

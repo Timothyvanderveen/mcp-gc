@@ -1,3 +1,3 @@
-# mcp-sheets
+# mcp-gc
 
 TODO

@@ -1,3 +1,5 @@
-# mcp-gc
+# Model Context Protocol for Google Cloud
 
-TODO
+TODO:
+- Google Drive write tool
+- Google Sheets analysis tool
